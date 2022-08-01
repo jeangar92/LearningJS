@@ -111,4 +111,197 @@ Comparing null and undefined: then == operator will return true and != operator 
 .shift() **removes and returns the first item of the array**
 .unshift(item) **adds an item to the front of the array**
 
+---
+toString()
+join()
+pop()
+push()
+shift()
+unshift()
+splice()
+concat()
+slice()
+includes()
+map reduce filter()
 
+spread is a definition
+rest -> next lesson
+
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = array1.concat(array2);
+
+console.log(array3);
+// expected output: Array ["a", "b", "c"
+, "d", "e", "f"]
+
+// in ES6 we have a powerful method to concat two arrays
+we call it is spread
+
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = array1.concat(array2);
+const array3 = [...array1, ...array2]
+
+
+# Conditional Statements
+
+**if**<br>
+**else**
+# when writing IF / Else functions - Think Ternary Operator
+
+
+const age = 12
+
+let allowed
+
+if (age === 32) {
+  allowed = 'trung'
+} else if (age == 30) {
+  allowed = 'Jean'
+} else {
+  allowed = 'Other'
+}
+
+console.log(allowed)
+
+////
+//Ternary operator
+const age = 12
+const allowed = age > 18 ? 'yes' : 'no'
+console.log(allowed)
+
+
+we can convert a simple if else function to ternary
+with complex if else function we can not do that
+
+-------
+***If using many else if, then use switch***
+swith are the same with if else function
+
+const food = 'apple';
+
+switch(food) {
+  case 'pear':
+    console.log('I like pears');
+    break;
+  case 'apple':
+    console.log('I like apples');
+    break;
+  case 'orange':
+    console.log('mmm... citrus');
+    break;
+  default: // it is not required
+  
+    console.log('idk what that is');
+}
+in the case: we have to use many if else function you should think about switch
+//=> I like apples
+---
+
+# While Loops
+// compiler and interpreter
+// the javascript compiler will help us compile the source code
+
+let n = 0
+while (n < 5) { // false the while stops
+  <!-- const str = n % 2 ? 'odd' : 'even'
+  console.log(`${n} is ${str}`) -->
+  console.log(`${n} is ${n % 2 ? 'odd' : 'even'}`)
+  n++ // n = 5
+}
+line 1: 0 is odd
+line 2: 1 is even
+line 3: 2 is odd
+line 5: 4 is even
+
+1%2 => 1
+2%2 => 0
+3%2 => 1
+4%2 => 0
+
+3%3 0
+58%9 4
+58 = 9*6 + 4
+
+
+---
+
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+  // do more stuff
+}
+element 
+
+array of objects
+const wizards = [
+  {name: "Harry Potter", house: "Gryffindor"}, // first element
+  {name: "Lord Voldomort", house: "Slytherin"}, // second element
+  {name: "Cedric Diggory", house: "Hufflepuff"},
+  {name: "Luna Lovegood", house: "Ravenclaw"},  
+  {name: "Albus Dumbledor", house: "Gryffindor"}, 
+  {name: "Merlin", house: "Slytherin"}, 
+  {name: "Pomona Sprout", house: "Hufflepuff"}, 
+  {name: "Gilderoy Lockheart", house: "Ravenclaw"}, 
+  {name: "Ron Weasley", house: "Gryffindor"}, 
+  {name: "Severus Snape", house: "Slytherin"}, 
+  {name: "Nymphadora Tonks", house: "Hufflepuff"}, 
+  {name: "Padma Patil", house: "Ravenclaw"}, 
+  {name: "Hermoine Granger", house: "Gryffindor"} 
+ ]
+
+wizards[0] 
+wizards[1]
+
+array objects
+
+# Functions
+
+functions fnName(params) {
+
+}
+
+// ES6
+const fnName = (params) => {
+
+}
+
+f(-2) => -4
+f(-1) => -2
+f(0) => 0
+f(1) => 2
+f(2) => 4
+
+Here you have to write a function that the name is f
+
+const fnName = (num) => {
+ let i = -2
+ while (i < 10){
+ i++
+  console.log(i) 
+ }
+}
+fnName(-2) => result: -4
+
+f only a function name so you can use f1 f2 fAbc ... instead
+
+the name of function, variable avoid keywords like const, let, function, string ...
+
+
+const movie1 = 'Saving Private Ryan';
+const year1 = 1998;
+console.log(`${movie1} was released in ${year1}`);
+
+const movie2 = 'Interstellar';
+const year2 = 2014;
+console.log(`${movie2} was released in ${year2}`);
+
+const movie3 = 'Jason Bourne';
+const year3 = 2016;
+console.log(`${movie3} was released in ${year3}`);
+
+const theMovieData = (movie, year) => {
+  console.log(`The movie ${movie} was release in year ${year}`)
+} 
+theMovieData(movie1,year1)
+legendary definition
