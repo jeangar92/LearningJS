@@ -43,6 +43,7 @@
 ## **4.String Concatentation**
 ***There are two ways:*** <br>
 "string 1" + "string 2" <br>
+and <br>
 `abc ${var1} abc ${var2} abc`
 
  ## **5.Converting Strings to Integers with parseInt() and parseFloat()**
@@ -62,7 +63,7 @@ Full list at:<br>
 https://www.w3schools.com/js/js_assignment.asp
 
 ## **8.Boolean Data Type**
-Falsey
+Falsey :
 false
 0
 '' "" ``
@@ -84,17 +85,17 @@ i != 1<br>
 returns true<br>
 !! : returns the original value of a boolean<br>
 what is the difference between == and === ?<br>
-== : does tge type conversion of the operand before comparison (loose equality)<br>
+== : does the type conversion of the operand before comparison (loose equality)<br>
 === : operator compares the value as well as the data types of the operand (strict equality).<br>
 
-***Note: Unlike == operator, === doesn't does type conversion.***
+***Note: Unlike == operator, === doesn't do type conversion.***
 
-### **Comparing == and !=**
+### ** Comparing == and != **
 
 Comparing string and number: the string is converted into a number before the comparison.<br>
 Comparing boolean and number (0 or 1): it treats 0 as false and 1 as true.<br>
 Comparing two objects: the operator will check if **both** refer to the same object. If yes then the == operator will return true and != will return false, otherwise == will return false and != will return true.<br>
-Comparing null and undefined: then == operator will return true and != operator will return false.
+Comparing null and undefined: the == operator will return true and != operator will return false.
 
 # && ||
 && operator requires both left and right values to be true to return true.<br>
@@ -136,12 +137,12 @@ console.log(array3);
 , "d", "e", "f"]
 
 // in ES6 we have a powerful method to concat two arrays
-we call it is spread
+we call it spread
 
 const array1 = ['a', 'b', 'c'];
 const array2 = ['d', 'e', 'f'];
-const array3 = array1.concat(array2);
-const array3 = [...array1, ...array2]
+const array3 = array1.concat(array2); //old way
+const array3 = [...array1, ...array2] //new way
 
 
 # Conditional Statements
