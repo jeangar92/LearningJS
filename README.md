@@ -1,4 +1,4 @@
-# Learning JS 
+  # Learning JS 
 ## 1.JavaScript Data Types
 ### **Primitive data**
 - Number EX: 1 2 3
@@ -306,3 +306,111 @@ const theMovieData = (movie, year) => {
 } 
 theMovieData(movie1,year1)
 legendary definition
+
+
+"abcd"[1] -> b
+index 0: a
+index 1: b
+nth 1 : a
+nth 2 : b
+nth 3 : c
+
+function myFunction(a, n) {
+  return a[n - 1]
+}
+
+str.slice(str.length,-3)
+
+// get last 3 letters
+str.slice(str.length -3, str.length)
+str.slice(str.length -3) 
+str.slice(-3)
+
+
+"abcdefg" ef
+
+fucntion myFunction(str){
+  return str.slice(-3, -1)
+  return str.slice(4, 5) 
+}
+
+if (a.includes()) {
+
+}
+
+b + a
+`${a}${b}`
+
+ternary operator
+function myFunction(a, b) {
+  return a.indexOf(b) === -1 ? a + b : b + a
+}
+
+1%2 1
+2%2 0
+3%2 1
+4%2 0
+
+8 is even because 8%2 is 0
+
+
+
+function myFunction(a) {
+  let isEven = true
+
+  if (Math.abs(a%2) == 1) { // absolute
+    isEven = false
+  }
+
+  return isEven
+}
+
+-5 % 2 ? absolute -1 is 1
+
+-3 % 2 => -1 1
+
+Absolute of -1 is 1
+
+Absolute -4 is 4 
+the result of absolute is always more than 0
+
+function myFunction(a) {
+  return a % 2 === 0
+}
+jschanllanger 10 score 
+get 20 scores in https://leetcode.com
+to become a senior frontend developer you have to get 100 scores: 
+Javascript 30 scores
+Reac
+tJS 25 scores
+css 5 scores
+, experience(50 scores)
+
+10 scores
+
+
+
+you dont recommend to learn about React, untill i have this understood properly.
+depth understanding
+
+
+I have to understand JS in depth before i learn React
+
+I am going to Argentina on August 12, I arrive to Argentina the 13th , then i come back from Argentina on August 30, Arrive to NY on August 31st
+
+stage
+
+we will keep in touch, we will make it work, if we cannot speak every day, at least 1 hour or 30 minutes for important questions i may have.
+
+in Argentina I need to repair things in my grandpas house and i need to visit family
+
+ill do the best i can to make it work.
+
+depends on your time
+
+yes but also yours.
+You know Im busy from 9am to 6pm in VietName
+at other time I can teach you
+
+
+how about tomorrow ? 7am(monday) here 8pm(sunday) there ?
